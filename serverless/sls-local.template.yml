@@ -1,7 +1,7 @@
 profiles:
-  <mystage>: dev
+  <stage>: dev
   dev: dev
 
 custom:
-  <mystage>:
+  <stage>:
     myvar: myval
