@@ -1,0 +1,12 @@
+{
+	"scripts": {
+		"sls:package": "sls package",
+		"sls:deploy": "sls deploy"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"aws-sdk": "^2.927.0",
+		"serverless-deployment-bucket": "^1.5.1",
+		"serverless": "^2.46.0"
+	}
+}
