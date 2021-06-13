@@ -17,8 +17,10 @@ This is a POC of the API GW / lambda integration implemented with the serverless
 - initiate the AWS profile by assuming the appropriate role
 
 - run `npm run sls:deploy -- --stage <mystage>` where `<mystage>`, 
-replacing `<mystage>` by your unique stage name. ALternatively 
+replacing `<mystage>` by your unique stage name. Alternatively 
   you can run `npx sls deploy --stage <mystage>`
+  
+- when you are done, remove everything with `npx sls remove --stage`
 
 ### List of generated objects
 
