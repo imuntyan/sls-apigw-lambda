@@ -19,3 +19,11 @@ This is a POC of the API GW / lambda integration implemented with the serverless
 - run `npm run sls:deploy -- --stage <mystage>` where `<mystage>`, 
 replacing `<mystage>` by your unique stage name. ALternatively 
   you can run `npx sls deploy --stage <mystage>`
+
+### List of generated objects
+
+- API Gateway `<stage>-poc-apigw-s3-proxy`
+- Lambda function `poc-apigw-s3-proxy-<stage>-get`
+- Lambda Role `poc-apigw-s3-proxy-lambda-role-<stage>`
+- Lambda Log Group `/aws/lambda/poc-apigw-s3-proxy-<stage>-get`
+- CloudFormation stack `poc-apigw-s3-proxy-<stage>`

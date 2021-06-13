@@ -40,7 +40,7 @@ resources:
       Type: AWS::IAM::Role
       Properties:
         Path: /
-        RoleName: poc-apigw-s3-proxy-lambda-role # required if you want to use 'serverless deploy --function' later on
+        RoleName: poc-apigw-s3-proxy-lambda-role-${opt:stage} # required if you want to use 'serverless deploy --function' later on
         AssumeRolePolicyDocument:
           Version: '2012-10-17'
           Statement:
