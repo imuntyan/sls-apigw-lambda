@@ -6,8 +6,7 @@ service: poc-apigw-s3-proxy
 frameworkVersion: ">=2.46.0"
 
 custom:
-  profiles:
-    igor: dev
+  profiles: ${file(./sls-local.yml):profiles}
 
 provider:
   name: aws
